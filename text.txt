@@ -1,0 +1,12 @@
+index and thumb = 30
+
+
+if (index_to_middle_length<30):
+    moveto(index_x*(screen_width/frame_width),index_y*(screen_height/frame_height))
+if(thumb_to_index_length<30):
+    click()
+if (middle_to_thumb_length<30):
+    mouse_down()
+    moveto(middle_x*(screen_width/frame_width),middle_y*(screen_height/frame_height))
+    if(middle_to_thumb_length>30):
+        mouse_up
