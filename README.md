@@ -1,7 +1,13 @@
 # Virtual_Mouse
 This Python script integrates MediaPipe, OpenCV, and PyAutoGUI libraries to create a system that interprets hand gestures captured via webcam for controlling mouse actions, showcasing an application of computer vision and gesture recognition in enhancing user interaction with computers.
 This project is made basically for fun but also for learning the concepts of OpenCV, Mediapipe and PyAutoGUI.
-It is useful when you are a little far from your laptop or when you don’t wanna come out of the blanket to pause or play your favorite movie
+It is useful when you are a little far from your laptop or when you don’t wanna come out of the blanket to pause or play your favorite movie.
+# Mediapipe
+A hand and body landmark recognition algorithm designed by developers from the google itself.
+# OpenCV
+The most useful library for video capture and image processing, because of its efficiency and real-time capabilities.
+# PyAutoGUI
+The library most commonly used in GUI Automation including sending mouse and keyboard actions as input from a simple python program
 # Virtual_Mouse.py
   This is best optimised for single hand usage and you can use it for clicking and moving, right click and holding options are also added but does not work very well
   
